@@ -1,0 +1,31 @@
+As an owner of a store, you need to keep track of your inventory to make sure only the highest quality items are
+on the shelves. In order to keep track of the inventory, we need to create a program that calculates the price of items
+for the following day.
+
+Dairy expires 7 days after it arrives.
+Fruit expires 5 days after it arrives.
+Bread expires 14 days after it arrives.
+Gift Cards are not perishable, and so should never be discounted. We don't care how long it has been in our
+inventory.
+
+1 day before expiration, the goods that remain in the inventory are discounted 25% off.
+
+Shipments only ever come on Saturdays.
+
+Tuesdays offer an 10% discount on all items. This discount is applied instead of the expiration discount for expiring goods.
+
+At the end of the day, expired goods are thrown out. The inventory manager needs to remove them from the inventory.
+
+Items as they are purchased can be assumed to be removed from the inventory when the purchase occurs.
+
+
+
+
+Our business has been flourishing, we need to include a second day to receive shipments instead of just Saturdays.
+
+The business owner has scheduled deliveries to occur on Saturdays and Wednesdays. As a results, we need to modify our
+program to accommodate this new requirement.
+
+You need to write some tests for the new situations, as well as incorporate the new requirement into your refactored code.
+
+Everything else must remain the same for the program, and the discount days and amounts have not changed.
